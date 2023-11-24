@@ -30,5 +30,9 @@
           anchor.href = anchor.href.replace(/qid=\d+/, 'qid=0');
       }
   }
+  const element = document.querySelector('.sbv-video-single-product');
+  if (element) {
+    element.style.display = 'none';
+  }
 
 })(document);
